@@ -1,94 +1,94 @@
-### Shell
+# Shell
 
-1. Launch
+### Launch
 Start command: `python3 shell.py`.
-2. Supported commands
+### Supported commands
 
-2.1 cd
+1. cd
 
-Changes working directory.
+    Changes working directory.
 
-Syntax: `cd directory_name`.
+    Syntax: `cd directory_name`.
 
-2.2 pwd
+2. pwd
 
-Prints path to current working directory.
+    Prints path to current working directory.
 
-Syntax: `pwd`.
+    Syntax: `pwd`.
 
-2.3 ls
+3. ls
 
-Prints all files in directory.
+    Prints all files in directory.
 
-Syntax: `ls [-a] [-l] [directory_name]`.
+    Syntax: `ls [-a] [-l] [directory_name]`.
 
-Parameter `-a` prints all files including files that starts with '.' (except for '.' and '..').
+    Parameter `-a` prints all files including files that starts with '.' (except for '.' and '..').
 
-Parameter `-l` also prints sizes of files and their type.
+    Parameter `-l` also prints sizes of files and their type.
 
-2.4 mkdir
+4. mkdir
 
-Creates new directory.
+    Creates new directory.
 
-Syntax: `mkdir directory_name`.
+    Syntax: `mkdir directory_name`.
 
-2.5 rmdir
+5. rmdir
 
-Removes directory.
+    Removes directory.
 
-Syntax: `rmdir [-r] directory_name`.
+    Syntax: `rmdir [-r] directory_name`.
 
-Parameter `-r`  removes all content of a directory recursively
+    Parameter `-r`  removes all content of a directory recursively
 
-2.6 cp
+6. cp
 
-Copies file / directory.
+    Copies file / directory.
 
-Syntax: `cp source destination`.
+    Syntax: `cp source destination`.
 
-2.7 mv
+7. mv
 
-Moves file / directory.
+    Moves file / directory.
 
-Syntax: `mv source destination`.
+    Syntax: `mv source destination`.
 
-2.8 rm
+8. rm
 
-Removes file.
+    Removes file.
 
-Syntax: `rm file_name`.
+    Syntax: `rm file_name`.
 
-2.9 export
+9. export
 
-Changes / shows environment variables.
+    Changes / shows environment variables.
 
-Syntax: `export [variable] [value]`.
+    Syntax: `export [variable] [value]`.
 
-If 2 parameters are passed then it assigns `value` to `variable`.
+    If 2 parameters are passed then it assigns `value` to `variable`.
 
-If 1 parameter is passed then it shows value of `variable`.
+    If 1 parameter is passed then it shows value of `variable`.
 
-If 0 parameters are passed then it shows all variables and their values.
+    If 0 parameters are passed then it shows all variables and their values.
 
-2.10 unset
+10. unset
 
-Removes environment variable.
+    Removes environment variable.
 
-Syntax: `unset variable`.
+    Syntax: `unset variable`.
 
-2.11 echo
+11. echo
 
-Prints specified string or variable value.
+    Prints specified string or variable value.
 
-Syntax: `echo param1 param2 ...`.
+    Syntax: `echo param1 param2 ...`.
 
-If parameter starts with '$' then it tries to print value of variable.
+    If parameter starts with '$' then it tries to print value of variable.
 
-2.12 Running programs
+12. Running programs
 
-Syntax: `prog_name param1 param2 ...`.
+    Syntax: `prog_name param1 param2 ...`.
 
-3. Input / Output redirection
+### Input / Output redirection
 
 Syntax: `cmd1 params1 | cmd2 params2 | ... | cmdN paramsN [< input] [>|1>|>>|1>> output] [>|2>|>>|2>> error]`.
 
