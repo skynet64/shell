@@ -1,5 +1,7 @@
 # Shell
 
+Created by Dmitry Ryabkov Group Б05-812
+
 ### Launch
 Start command: `python3 shell.py`.
 ### Supported commands
